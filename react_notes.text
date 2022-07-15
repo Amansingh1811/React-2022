@@ -1,0 +1,71 @@
+👉👉👉👉  React JS 17.0.2 in one video  👉👉👉👉👉👉
+
+1.Install the Recommended version of NodeJS
+
+2.Install React JS in our system using " npx create-react-app app_name "
+
+3.How to run the React Project 🤔 Oooo It's simple just write the "npm or yarn start command"
+
+4. Our First Component in React JS Three things are mandatory & that are
+            >import React from "react"
+            >any one function (functional Component)
+            >It should always return JSX.
+
+5. After React 17.0 Version, Now no need to write
+    "import React from "react" Anymore"
+
+6. What is JSX? Rules to write JSX.
+        👉 It always return single element
+
+        👉 use Div or React Fragment to wrap all your JSX Code
+
+        👉 ClassName in place of class(Because class is reserved in react.JS)
+
+        👉 Need to close all non closing Tags in JSX
+
+        👉 Use camelCase for attributes
+
+7. Autocomplete for React JSX 😍 Very Important
+👉👉 Open the settings
+
+👉👉 Open Setting(JSON) file located on Top Right Corner
+
+👉👉 Add the following Code => "emmet.includeLanguages": {"javascript": "javascriptreact"},
+
+8.What is Nested Components?
+  👉👉 class App extends Component {
+                render() {
+                    return (
+                    <div>
+                        <Header />
+                        <Footer />
+                    </div>
+                    );
+                 }
+                }
+A nested component is a child of the parent component that contains it. 
+The child component is positioned and rendered relative to that parent.    
+
+
+9.CSS in React JS
+    we can randor the css in 3 ways....
+      👉👉 Inline css "<span className="card-author subtle" style={{color:"red"}}>Breakfast</span>"
+      👉👉 External css using "className" .
+      👉👉 create an object "const myStyle = {color:"red"}"
+                        <span className="card-author subtle" style={myStyle}>Breakfast</span>
+
+10.Props in React JS
+    👉👉 props uses for the data sharing between two component....
+    👉👉 parent to child component 
+    👉👉 top to bottom 
+    👉👉 data passout using props 
+     👉👉 "<Menucard menuData={menucard}/>" here menuData is like a attribute 
+
+        hot reloding problem
+
+       
+11.Props Children????
+
+12. <React.Fragment>..........</React.Fragment> ///// <> ........</>
+
+👉👉 new set use for unique data 
